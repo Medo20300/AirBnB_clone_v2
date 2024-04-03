@@ -20,7 +20,7 @@ SERVER_CONFIG="server {
 	}
 
 	if (\$request_filename ~ redirect_me) {
-		rewrite ^ https://sketchfab.com/bluepeno/models permanent;
+		rewrite ^/redirect_me https://github.com/Medo20300 permanent;
 	}
 
 	location = /404.html {
